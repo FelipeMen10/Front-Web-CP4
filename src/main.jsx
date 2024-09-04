@@ -7,6 +7,8 @@ import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
 import Login from './routes/Login.jsx'
 import Produtos from './routes/Produtos.jsx'
+import Sobre from './routes/Sobre.jsx'
+import Contato from './routes/Contato.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,9 @@ const router = createBrowserRouter([
     children:[
       {path: '/', element: <Home/>},
       {path: '/login', element: <Login/>},
-      {path: '/produtos', element: <Produtos/>}
+      {path: '/produtos', element: <Produtos/>},
+      {path: '/sobre', element: <Sobre/>},
+      {path: '/contato', element: <Contato/>},
 
     ]
   }
