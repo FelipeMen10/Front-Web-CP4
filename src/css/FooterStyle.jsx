@@ -6,12 +6,11 @@ div{
 display: flex;
 flex-direction: column;
 width: 100%;
-height: 70px;
-background-color: gray;
+height: 35px;
 text-align: center;
-justify-content: flex-end;
-
-background-color: gray;
+justify-content: center;
+margin-top: 10px;
+background-color: lightgray;
 }
 
 `
