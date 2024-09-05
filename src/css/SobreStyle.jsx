@@ -11,7 +11,6 @@ export const SobreStyle = styled.section`
 }
 .div-banner{
     width: 100%;
-    border: solid black 3px;
 }
 .banner{
     width: 100%;

@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const NavStyle = styled.header`
 
 header{
+position: fixed;
+margin-bottom: 70px;
 display: flex;
 width: 100%;
 height: 70px;
